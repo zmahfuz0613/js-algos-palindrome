@@ -11,7 +11,7 @@ const palindrome = str => {
   if (reversed === str) return true
   return false
 }
-console.log(palindrome("deye eye eyed"))
+console.log(palindrome("A Man, A Plan, A Canal-Panama"))
 
 module.exports = {
   palindrome
