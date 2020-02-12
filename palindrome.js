@@ -4,7 +4,7 @@ const palindrome = str => {
   // var reg = /[\W_]/g
   // console.log(reg)
   // var smallStr = str.toLowerCase().replace(reg, "")
-  var reversed = str
+  let reversed = str
     .split("")
     .reverse()
     .join("")
