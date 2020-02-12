@@ -1,17 +1,12 @@
-
 //PALINDROME
+//string may include spaces, you will need to account for that.
+//for e.g., "a man a plan a canal panama" will pass the test even though the spaces are in different places.
+//just use letters and spaces, no other characters
+
 const palindrome = str => {
-  // var reg = /[\W_]/g
-  // console.log(reg)
-  // var smallStr = str.toLowerCase().replace(reg, "")
-  let reversed = str
-    .split("")
-    .reverse()
-    .join("")
-  if (reversed === str) return true
-  return false
+
 }
-console.log(palindrome("A Man, A Plan, A Canal-Panama"))
+console.log(palindrome("a man a plan a canal panama"))
 
 module.exports = {
   palindrome
