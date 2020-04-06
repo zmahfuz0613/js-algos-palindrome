@@ -6,7 +6,7 @@
 
 ### Objectives
 
-- Check a string (`str`) to determine if the string is a palindrome.
+- Create a function which takes a string (`str`) as an argument and determines if the string is a palindrome.
 - The output should return a boolean, which should be `true` to pass the test.
 
 ### Getting Started
